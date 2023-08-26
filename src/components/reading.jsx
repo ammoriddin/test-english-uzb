@@ -1,4 +1,3 @@
-import React from 'react'
 import LessonCards from './lessoncards'
 import red1 from '../assets/red1.webp'
 import red2 from '../assets/red2.webp'

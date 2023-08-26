@@ -2,7 +2,7 @@ import HomePage from "./components/home"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
-import Grammer from "./components/grammer"
+import Grammar from "./components/grammar"
 import Listening from "./components/listening"
 import Reading from "./components/reading"
 import UseOfEnglish from "./components/useofenglish"
@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/grammer" element={<Grammer/>} />
+        <Route path="/grammer" element={<Grammar/>} />
         <Route path="/listening" element={<Listening/>} />
         <Route path="/reading" element={<Reading/>} />
         <Route path="/useofenglish" element={<UseOfEnglish/>} />

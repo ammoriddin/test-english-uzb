@@ -1,4 +1,3 @@
-import React from 'react'
 import LessonCards from './lessoncards'
 import lis1 from '../assets/lis1.webp'
 import lis2 from '../assets/lis2.webp'
