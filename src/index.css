@@ -35,3 +35,11 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.active {
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    background-color: white;
+    color: black;
+}
