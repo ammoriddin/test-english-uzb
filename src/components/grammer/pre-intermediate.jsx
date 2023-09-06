@@ -1,4 +1,3 @@
-import React from 'react'
 import LessonCards from '../lessoncards'
 import p1 from '../../assets/grammer/pre-intermediate/p1.webp'
 import p2 from '../../assets/grammer/pre-intermediate/p2.webp'
@@ -44,33 +43,33 @@ import e36 from '../../assets/grammer/elementry/e36.webp'
 export default function PreIntermediate() {
   return (
     <div>
-        <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#1a8ec1]'>A2 GRAMMAR LESSONS AND EXERCISES
+        <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#1a8ec1]'>A2 GRAMATIK DARSLAR VA MASHQLAR
 </h1>
         <div className='container'>
             <div className='card-wrapper flex justify-around items-center flex-wrap gap-y-5 pb-[20px]'>
-                <LessonCards img={p1} text={"Asking questions in English – Question forms"} path={'grammer/a1'}/>
+                <LessonCards img={p1} text={"Ingliz tilida savol so'rash – So'roq shakllar"} path={'grammer/a1'}/>
                 <LessonCards img={p2} text={"Subject questions, questions with preposition"} path={'grammer/a2'}/>
                 <LessonCards img={p3} text={'Present simple vs present continuous'} path={''}/>
-                <LessonCards img={p4} text={'Past simple – Form and use'} path={''} />
-                <LessonCards img={p5} text={'Past continuous and past simple'} path={''} />
-                <LessonCards img={p6} text={"Expressing purpose with 'to' and 'for'"} path={''} />
-                <LessonCards img={p7} text={'Questions – word order and question words'} path={''} />
-                <LessonCards img={p8} text={'However, although, because, so, and time connectors'} path={''} />
-                <LessonCards img={p9} text={'Object pronouns vs subject pronouns – me or I, she or her?'} path={''} />
+                <LessonCards img={p4} text={'Past simple – Formulasi va foydalanish'} path={''} />
+                <LessonCards img={p5} text={'Past continuous va past simple'} path={''} />
+                <LessonCards img={p6} text={"Maqsadni 'to' va 'for' bilan ifodalash"} path={''} />
+                <LessonCards img={p7} text={'Savollar – gap ketma ketligi va so\'roq gaplar'} path={''} />
+                <LessonCards img={p8} text={'However, although, because, so, va time bog\'lovchilari'} path={''} />
+                <LessonCards img={p9} text={'Egalik olmoshlari vs kishilik olmoshlari – me or I, she or her?'} path={''} />
                 <LessonCards img={p10} text={"Whose, possessive 's – Whose is this? It's Mike's"} path={''} />
-                <LessonCards img={p11} text={'At, in, on – prepositions of time'} path={''} />
-                <LessonCards img={p12} text={'At, in, on – prepositions of place'} path={''} />
+                <LessonCards img={p11} text={'At, in, on – vaqt predloglari'} path={''} />
+                <LessonCards img={p12} text={'At, in, on – joy predloglari'} path={''} />
                 <LessonCards img={p13} text={"Can, can't – ability, possibility, permission"} path={''} />
                 <LessonCards img={p14} text={"Present continuous – I'm doing, I'm not doing, Are you doing?"} path={''} />
-                <LessonCards img={p15} text={'Present simple or present continuous?'} path={''} />
+                <LessonCards img={p15} text={'Present simple yoki present continuous?'} path={''} />
                 <LessonCards img={p16} text={'The imperative – Sit down! Don’t talk!'} path={''} />
                 <LessonCards img={p17} text={"Was/were – past simple of 'be'"} path={''} />
                 <LessonCards img={p18} text={'Past simple – regular/irregular verbs'} path={''} />
-                <LessonCards img={p19} text={'Past simple – negatives and questions'} path={''} />
-                <LessonCards img={p20} text={'Verbs + to + infinitive and verbs + -ing'} path={''} />
+                <LessonCards img={p19} text={'Past simple – inkor va so\'roq'} path={''} />
+                <LessonCards img={p20} text={'Verbs + to + infinitive va verbs + -ing'} path={''} />
                 <LessonCards img={p21} text={"Would you like...? I'd like..."} path={''} />
                 <LessonCards img={p22} text={'Have got'} path={''} />
-                <LessonCards img={p23} text={'A, some, any – countable and uncountable nouns'} path={''} />
+                <LessonCards img={p23} text={'A, some, any – sanaladigan va sanalmaydigan otlar'} path={''} />
                 <LessonCards img={p24} text={'There is, there are – there was, there were'} path={''} />
                 <LessonCards img={p25} text={'There or it'} path={''} />
                 <LessonCards img={p26} text={'Next to, under, between, in front of, behind, over, etc.'} path={''} />
@@ -82,12 +81,12 @@ export default function PreIntermediate() {
                 <LessonCards img={p32} text={'Adverbs of manner (slowly) – or adjectives (slow)?'} path={''} />
                 <LessonCards img={p33} text={'A/an, the, no article – the use of articles in English'} path={''} />
                 <LessonCards img={p34} text={'Conjunctions: and, but, or, so, because'} path={''} />
-                <LessonCards img={p35} text={'Basic word order in English'} path={''} />
-                <LessonCards img={p36} text={'Table of grammar contents – A1'} path={''} />
-                <LessonCards img={p37} text={'Table of grammar contents – A1'} path={''} />
-                <LessonCards img={p38} text={'Table of grammar contents – A1'} path={''} />
-                <LessonCards img={p39} text={'Table of grammar contents – A1'} path={''} />
-                <LessonCards img={e36} text={'Table of grammar contents – A1'} path={''} />
+                <LessonCards img={p35} text={'Ingliz tilida sodda so\'zlar tartibi'} path={''} />
+                <LessonCards img={p36} text={'A1 - tarkibiy jadvali'} path={''} />
+                <LessonCards img={p37} text={'A1 - tarkibiy jadvali'} path={''} />
+                <LessonCards img={p38} text={'A1 - tarkibiy jadvali'} path={''} />
+                <LessonCards img={p39} text={'A1 - tarkibiy jadvali'} path={''} />
+                <LessonCards img={e36} text={'A1 - tarkibiy jadvali'} path={''} />
             </div>
         </div>
     </div>

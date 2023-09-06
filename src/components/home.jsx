@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Lessons from './lessons'
 import Hero from './hero'
 

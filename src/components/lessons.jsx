@@ -1,4 +1,3 @@
-import React from 'react'
 import TopicCards from "../components/topic-cards"
 import grammer from '../assets/grammer.webp'
 import listening from '../assets/listening.webp'
@@ -11,7 +10,7 @@ import leveltest from '../assets/leveltest.webp'
 export default function Lessons() {
   return (
     <div className='container2 mt-10'>
-        <h2 className='text-center mb-10 text-[35px] font-bold'>What would you like to <span className='text-[50px] text-[#50af31]'>learn</span> today?</h2>
+        <h2 className='text-center mb-10 text-[35px] font-bold'>Bugun nima <span className='text-[40px] text-[#50af31]'>o&apos;rganmoqchisiz?</span></h2>
         <div className='flex justify-between items-center flex-wrap'>
             <TopicCards img={grammer} topic={'Grammer Lesson'} desc={'Study the grammar lessons that are typically included in each level: A1, A2, B1, B1+, B2. There are three or more exercises and an explanation in each lesson, and feedback for every single question!'} color={'1a8ec1'} path={'grammer'} />
 
