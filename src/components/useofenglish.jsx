@@ -12,19 +12,11 @@ export default function UseOfEnglish() {
             <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#ec6825]'>Ingliz tilidan foydalanish</h1>
             <div className='container'>
                 <div className='card-wrapper flex justify-start gap-x-[22px] items-center flex-wrap gap-y-5 pb-[20px]'>
-<<<<<<< HEAD
-                    <LessonCards img={eng1} text={'A1 Use of English Test'} path={'useofenglish/a1'}/>
-                    <LessonCards img={eng2} text={'A2 Use of English Test'} path={'useofenglish/a2'}/>
-                    <LessonCards img={eng3} text={'B1 Use of English Test'} path={'useofenglish/b1'}/>
-                    <LessonCards img={eng4} text={'B1+ Use of English Test'} path={'useofenglish/b1+'}/>
-                    <LessonCards img={eng5} text={'B2 Use of English Test'} path={'useofenglish/b2'}/>
-=======
-                    <LessonCards img={eng1} text={'A1 Ingliz tilidan foydalanish Testi'} />
-                    <LessonCards img={eng2} text={'A2 Ingliz tilidan foydalanish Testi'} />
-                    <LessonCards img={eng3} text={'B1 Ingliz tilidan foydalanish Testi'} />
-                    <LessonCards img={eng4} text={'B1+ Ingliz tilidan foydalanish Testi'} />
-                    <LessonCards img={eng5} text={'B2 Ingliz tilidan foydalanish Testi'} />
->>>>>>> 84716e272a6706026b8ad1e9f0446f930f8aed6b
+                    <LessonCards img={eng1} text={'A1 Ingliz tilidan foydalanish Testi'} path={'useofenglish/a1'}/>
+                    <LessonCards img={eng2} text={'A2 Ingliz tilidan foydalanish Testi'} path={'useofenglish/a2'}/>
+                    <LessonCards img={eng3} text={'B1 Ingliz tilidan foydalanish Testi'} path={'useofenglish/b1'}/>
+                    <LessonCards img={eng4} text={'B1+ Ingliz tilidan foydalanish Testi'} path={'useofenglish/b1+'}/>
+                    <LessonCards img={eng5} text={'B2 Ingliz tilidan foydalanish Testi'} path={'useofenglish/b2'}/>
                 </div>
             </div>
         </div>
